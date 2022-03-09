@@ -4,6 +4,7 @@
         <title>Formulario</title>
     </head>
     <body>
+        <!--Div de select-->
         <div>
             <label for="categoria">categorias: </label>
             <select name="categoria" id="categoria">
@@ -12,9 +13,9 @@
                 <option value="adm" selected>administrador</option>
             </select>
         </div>
-        
+        <!--Fim da div select-->
         <br>
-
+        <!--Div do input do tipo CKECKBOX-->
         <div>
             <label for="cores">Selelecione as sua cores preferidas: </label>
             <br/>
@@ -27,7 +28,9 @@
             <input type="checkbox" name="green" id="green">
             <label for="green">Verde</label>
         </div>
-
+        <!--Fim da div input do tipo CKECKBOX--->
+        
+        <!--Div do input do tipo RADIO-->
         <div>
             <label>Sexo: </label>
             <br/>
@@ -37,5 +40,22 @@
             <input type="radio" name="sexo" id="feminino" value="F">
             <label for="feminino">Feminino</label>
         </div>
+        <!--Fim da div input do tipo RADIO--->
+
+        <!--Div de textarea-->
+        <div>
+            <label for="comentarios">comentarios:</label>
+            <br>
+            <textarea 
+            name="comentarios" 
+            id="comentarios" 
+            cols="30" 
+            rows="10" 
+            maxlength="30"
+            style="resize: none;
+            background-color: black;
+            color: aliceblue;"></textarea>
+        </div>
+        <!--Fim da div de textarea-->
     </body>
 </html>
